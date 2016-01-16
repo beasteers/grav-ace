@@ -1,0 +1,198 @@
+name: Ace
+version: 1.0.0
+description: "This plugin provides code highlighting functionality via the [Ace.js](https://ace.c9.io/) jQuery plugin."
+icon: code
+author:
+  name: Ben Steers
+  email: ben@bensteers.me
+  url: http://bensteers.me
+homepage: https://github.com/bensteers/grav-ace/
+keywords: highlight, ace, cloud9, plugin, code, editor
+bugs: https://github.com/bensteers/grav-ace/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    theme:
+      type: select
+      label: Default CSS Theme
+      default: monokai
+      options:
+        ambiance: Ambiance
+        chaos: Chaos
+        chrome: Chrome
+        clouds: Clouds
+        clouds_midnight: Clouds Midnight
+        cobalt: Cobalt
+        crimson_editor: Crimson Editor
+        dawn: Dawn
+        dreamweaver: Dreamweaver
+        eclipse: Eclipse
+        github: Github
+        idle_fingers: Idle Fingers
+        iplastic: iPlastic
+        katzenmilch: Katzenmilch
+        kr_theme: KR Theme
+        kuroir: Kuroir
+        monokai: Monokai
+        merbivore: Merbivore
+        merbivore_soft: Merbivore Soft
+        mono_industrial: Mono Industrial
+        pastel_on_dark: Pastel on Dark
+        solarized_dark: Solarized Dark
+        solarized_light: Solarized Light
+        sqlserver: SQLServer
+        terminal: Terminal
+        textmate: TextMate
+        tomorrow_night_blue: Tomorrow Night Blue
+        tomorrow_night_bright: Tomorrow Night Bright
+        tomorrow_night_eighties: Tomorrow Night Eighties
+        tomorrow_night: Tomorrow Night
+        tomorrow: Tomorrow
+        twilight: Twilight
+        vibrant_ink: Vibrant Ink
+        xcode: XCode
+
+    language:
+      type: select
+      label: Default Editor Language
+      default: javascript
+      options:
+        abap: ABAP
+        abc: ABC
+        actionscript: ActionScript
+        ada: ADA
+        apache_conf: Apache Conf
+        asciidoc: AsciiDoc
+        assembly_x86: Assembly x86
+        autohotkey: AutoHotKey
+        batchfile: BatchFile
+        c_cpp: C and C++
+        c9search: C9Search
+        cirru: Cirru
+        clojure: Clojure
+        cobol: Cobol
+        coffee: CoffeeScript
+        coldfusion: ColdFusion
+        csharp: C#
+        css: CSS
+        curly: Curly
+        d: D
+        dart: Dart
+        diff: Diff
+        dockerfile: Dockerfile
+        dot: Dot
+        dummy: Dummy
+        dummysyntax: DummySyntax
+        eiffel: Eiffel
+        ejs: EJS
+        elixir: Elixir
+        elm: Elm
+        erlang: Erlang
+        forth: Forth
+        ftl: FreeMarker
+        gcode: Gcode
+        gherkin: Gherkin
+        gitignore: Gitignore
+        glsl: Glsl
+        golang: Go
+        groovy: Groovy
+        haml: HAML
+        handlebars: Handlebars
+        haskell: Haskell
+        haxe: haXe
+        html: HTML
+        html_ruby: HTML (Ruby)
+        html_elixir: HTML (Elixir)
+        ini: INI
+        io: Io
+        jack: Jack
+        jade: Jade
+        java: Java
+        javascript: JavaScript
+        json: JSON
+        jsoniq: JSONiq
+        jsp: JSP
+        jsx: JSX
+        julia: Julia
+        latex: LaTeX
+        lean: Lean
+        less: LESS
+        liquid: Liquid
+        lisp: Lisp
+        livescript: LiveScript
+        logiql: LogiQL
+        lsl: LSL
+        lua: Lua
+        luapage: LuaPage
+        lucene: Lucene
+        makefile: Makefile
+        markdown: Markdown
+        mask: Mask
+        matlab: MATLAB
+        maze: Maze
+        mel: MEL
+        mushcode: MUSHCode
+        mysql: MySQL
+        nix: Nix
+        objectivec: Objective-C
+        ocaml: OCaml
+        pascal: Pascal
+        perl: Perl
+        pgsql: pgSQL
+        php: PHP
+        powershell: Powershell
+        praat: Praat
+        prolog: Prolog
+        properties: Properties
+        protobuf: Protobuf
+        python: Python
+        r: R
+        rdoc: RDoc
+        rhtml: RHTML
+        ruby: Ruby
+        rust: Rust
+        sass: SASS
+        scad: SCAD
+        scala: Scala
+        scheme: Scheme
+        scss: SCSS
+        sh: SH
+        sjs: SJS
+        smarty: Smarty
+        snippets: snippets
+        soy_template: Soy Template
+        space: Space
+        sql: SQL
+        sqlserver: SQLServer
+        stylus: Stylus
+        svg: SVG
+        swift: Swift
+        tcl: Tcl
+        tex: Tex
+        text: Text
+        textile: Textile
+        toml: Toml
+        twig: Twig
+        typescript: Typescript
+        vala: Vala
+        vbscript: VBScript
+        velocity: Velocity
+        verilog: Verilog
+        vhdl: VHDL
+        xml: XML
+        xquery: XQuery
+        yaml: YAML
+        django: Django
